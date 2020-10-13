@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: monospace;
+    background: url(fondo9.png);
+}
+
+#titulo{
+  
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 5px solid rgba(122, 40, 56, 0.479);
+}
+ #tit{
+     text-align: center;
+     font-size: 50px
+     ;
+ }
+
+
+#registro{
+    width: 95%;
+    max-width: 500px;
+    margin: auto;
+    background: rgba(102, 150, 255, 0.397);
+    border-radius: 7px;
+}
+input{
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid dimgrey;
+    
+}
+#inputs{
+padding: 10px 30px;
+display: flex;
+flex-wrap: wrap;
+display: flex;
+justify-content: space-between;
+}
+
+.ci{
+    width:48% ;
+}
+.cien{
+    width: 90%;
+}
